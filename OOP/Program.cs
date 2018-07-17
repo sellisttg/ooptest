@@ -24,7 +24,7 @@ namespace OOP
 
     public class Animal
     {
-        public virtual void Greet()
+        public void Greet()
         {
             Console.WriteLine("Hello, I'm some sort of animal!");
         }
@@ -32,9 +32,8 @@ namespace OOP
 
     public class Mongoose : Animal
     {
-        public override void Greet()
+        public void Greet()
         {
-            base.Greet();
             Console.WriteLine("Yes, I am a Mongoose!");
         }
     }

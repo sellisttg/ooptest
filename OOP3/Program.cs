@@ -38,25 +38,4 @@ namespace OOP3
             set;
         }
     }
-
-    class Lion : IAnimal
-    {
-        private string name;
-
-        public Lion(string name)
-        {
-            this.Name = name;
-        }
-
-        public string Describe()
-        {
-            return "Hello, I'm a lion and my name is " + this.Name;
-        }
-       
-        public string Name
-        {
-            get { return name; }
-            set { name = value; }
-        }
-    }
 }

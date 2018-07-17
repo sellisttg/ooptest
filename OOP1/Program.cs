@@ -38,14 +38,4 @@ namespace OOP1
     {
 
     }
-
-    class Cat : FourLeggedAnimal
-    {
-        public override string Describe()
-        {
-            string result = base.Describe();
-            result += " In fact, all we know is that it's a cat!";
-            return result;
-        }
-    }
 }

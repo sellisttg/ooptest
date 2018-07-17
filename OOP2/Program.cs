@@ -28,22 +28,4 @@ namespace OOP2
     {
         public abstract string Describe();
     }
-
-
-    class Cow : FourLeggedAnimal
-    {
-
-        public override string Describe()
-        {
-            return "I'm a cow!";
-        }
-    }
-
-    class Elephant : FourLeggedAnimal
-    {
-        public override string Describe()
-        {
-            return "I'm a elephant!";
-        }
-    }
 }
